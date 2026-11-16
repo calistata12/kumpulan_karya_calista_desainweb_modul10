@@ -9,7 +9,7 @@ Repository berisi kumpulan karya mata kuliah Desain Web dan dibuat untuk praktik
 | **Nama** | Calista Trisna Putri|
 | **NIM** | K3525089 |
 | **Program Studi** | Pendidikan Teknik Informatika dan Komputer |
-| **Universitas** | Universitas Sebelas Maret (UNS) |
+| **Universitas** | Universitas Sebelas Maret |
 | **Mata Kuliah** | Desain Web |
 | **Dosen Pengampu** | Vearen Dika Sofirudin, S.pd., M.ed. |
 
