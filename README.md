@@ -13,7 +13,7 @@ Repository berisi kumpulan karya mata kuliah Desain Web dan dibuat untuk praktik
 | **Mata Kuliah** | Desain Web |
 | **Dosen Pengampu** | Vearen Dika Sofirudin, S.pd., M.ed. |
 
----
+
 
 ### 🎯 Tujuan Praktikum
 
@@ -21,13 +21,13 @@ Repository berisi kumpulan karya mata kuliah Desain Web dan dibuat untuk praktik
 2. Mahasiswa mampu berkolaborasi dalam tim dengan Git  
 3. Mahasiswa mampu mengembangkan aplikasi perangkat lunak dengan Git  
 
----
+
 
 ### 📚 Ringkasan Materi
 
 Git merupakan sistem kontrol versi terdistribusi (*Distributed Version Control System*) yang digunakan untuk mencatat, melacak, dan mengelola setiap perubahan pada kode sumber (*source code*) selama proses pengembangan perangkat lunak. Dengan menggunakan Git, pengembang dapat menyimpan riwayat perubahan melalui mekanisme *commit*, bekerja secara paralel pada cabang (*branch*) yang berbeda tanpa mengganggu kode utama, serta menggabungkan hasil pekerjaan dari berbagai anggota tim secara terstruktur. Untuk mendukung kolaborasi secara daring, Git sering dipadukan dengan layanan *hosting* repositori berbasis cloud seperti GitHub, sehingga proyek dapat disimpan secara aman, diakses dari mana saja, dan didokumentasikan dengan rapi.
 
----
+
 
 ### 🚀 Langkah Kerja
 
@@ -78,7 +78,7 @@ git remote add origin https://github.com/calistata12/kumpulan_karya_calista_desa
 git push -u origin main
 ```
 
----
+
 
 ### 📝 Kesimpulan
 
