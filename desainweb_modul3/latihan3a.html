@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS</title>
+    <style>
+        .view-content { display: none; }
+        .view-content:target { display: block; }
+        #dashboard { display: block; }
+        :target ~ #dashboard { display: none; }
+        
+        .sidebar li a {
+            display: block;
+            padding: 10px;
+            color: #D6336C;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .sidebar li a:hover {
+            background: #E2B4BD;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="margin: 10px 15px; padding: 5px 0; text-align: center; background: #4A4A4A; border-radius: 15px;">
+        <h1 style="color: #E2B4BD; text-align: center; font-family: serif;">Welcome!</h1>
+    </div>
+
+    <div style="margin: 10px 15px; padding: 10px; background: #F7D6D0; display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 12px; border-radius: 15px;">
+
+        <div class="sidebar" style="margin: 10px; padding: 0 10px; background: #FFF5F5; grid-column: 1 / span 3;">
+            <ul style="color: #D6336C; list-style-type: none; padding: 10px;">
+                <li style="margin: 10px 0; background: #F5CBCB;"><a href="#dashboard">Dashboard</a></li>
+                <li style="margin: 10px 0; background: #F5CBCB;"><a href="#profil">Profil</a></li>
+                <li style="margin: 10px 0; background: #F5CBCB;"><a href="#portofolio">Portofolio</a></li>
+                <li style="margin: 10px 0; background: #F5CBCB;"><a href="#kontak">Kontak kami</a></li>
+            </ul>
+        </div>
+
+        <div style="margin: 10px; padding: 10px; background: #FFF5F5; grid-column: 4 / span 9;">
+            
+            <div id="profil" class="view-content">
+                <img src="tata1.jpeg" style="display: block; margin: 0 auto; width: 15%;">
+                <p style="color: #760031;">
+                    Perkenalkan nama saya Calista Trisna Putri, sering dipanggil Tata.
+                    Saya merupakan anak pertama dari tiga bersaudara.
+                    Saya adalah mahasiswa Universitas Sebelas Maret pada program studi Pendidikan Teknik Informatika dan Komputer.
+                    Pada semester 3 ini, salah satu mata kuliah yang saya ambil adalah Desain web. 
+                    Pada matkul ini, saya akan belajar teori dan praktik untuk merancang tampilan, struktur,
+                    serta pengalaman visual sebuah situs internet agar menarik dan mudah digunakan.
+                </p>
+                <p style="color: #760031;">
+                    Sebelum menempuh pendidikan tinggi, saya menyelesaikan kewajiban pengabdian di
+                    pondok pesantren. Pengalaman wajib ini membentuk karakter saya dalam memahami satu
+                    sama lain, saling menjaga dan menguatkan sesama teman pengabdian, serta mengemban
+                    tanggung jawab mengasuh anak didik. Pengalaman tersebut menumbuhkan jiwa sosial dan rasa empati yang tinggi.
+                    Di waktu luang, saya memanfaatkan waktu untuk menonton film. Bagi saya, menonton
+                    film bukan sekadar hiburan, melainkan cara untuk memahami sudut pandang orang lain,
+                    mengasah empati, dan menggali inspirasi visual maupun cerita. Dipadukan dengan kegemaran
+                    membaca dan menulis kata-kata sederhana yang bermakna, hal ini mendorong ketertarikan
+                    saya pada dunia perancangan web. Meskipun saat ini masih dalam proses belajar dan belum
+                    sepenuhnya menguasai desain web, saya memiliki komitmen tinggi untuk terus berlatih menata
+                    tampilan digital yang rapi, harmonis, dan nyaman dilihat mata.
+                </p>
+            </div>
+
+            <div id="portofolio" class="view-content">
+                <p style="color: #760031;">
+                    Berikut adalah pengalaman saya.
+                </p>
+                <p style="color: #760031;">
+                    Pengabdian Pondok Pesantren<br>
+                    Pengalaman ini membentuk karakter kepemimpinan, komunikasi yang efektif, serta rasa empati dan kepedulian sosial yang tinggi.
+                </p>
+            </div>
+
+            <div id="kontak" class="view-content">
+                <p style="color: #760031;">
+                    Silakan hubungi saya melalui email mahasiswa atau media sosial resmi PTIK UNS.
+                </p>
+            </div>
+
+            <div id="dashboard" class="view-content">
+                <p style="color: #760031;">
+                    Selamat datang di website profil Tata!
+                </p>
+                <p style="color: #760031;">
+                    Pada mata kuliah Desain Web ini, saya belajar teori dan praktik untuk merancang tampilan, struktur,
+                    serta pengalaman visual sebuah situs internet agar menarik dan mudah digunakan.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div style="margin: 10px 15px; padding: 5px 0; background: #4A4A4A; border-radius: 15px;">
+        <h3 style="color: #E2B4BD; text-align: center; font-family: monospace;"> Hak Cipta &copy; CALISTA</h3>
+    </div>
+
+</body>
+</html>

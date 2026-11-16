@@ -1,0 +1,161 @@
+#wrap{
+    width: 1000px;
+    margin: auto;
+    background-color: #fceecb;
+}
+#header{
+    background-image: url('HogwartsHouses.jpg');
+    background-size: cover;
+    border-bottom-right-radius: 50px;
+    width: 730px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    float: right;
+}
+#judul{
+    font-size: 50px;
+    text-align: right;
+    padding: 180px 40px 0 0;
+}
+#judul a{
+    color: white;
+    text-decoration: none;
+}
+#judul a:hover{
+    color: grey;
+}
+.desc{
+    font-size: 24px;
+    color: white;
+    text-align: right;
+    padding: 8px 40px 0 0;
+}
+#menu ul{
+    float: right;
+    background: #740001;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+    list-style: none;
+    width: 730px;
+}
+#menu ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#menu ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+#menu ul li:hover{
+    background: #d3a625;
+}
+#menu ul li a{
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#menu ul li:hover > ul{
+    display: block;
+}
+#menu ul ul{
+    background: #d3a625;
+    position: absolute;
+    padding: 0;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 150px;
+}
+#menu ul ul li{
+    float: none;
+    width: 100%;
+}
+#menu ul ul li a{
+    padding: 10px 20px;
+    color: white;
+}
+#menu ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+#kiri{
+    border-top-left-radius: 50px;
+    background-color: #fceecb;
+    width: 250px;
+    margin: 0 0 20px;
+    float: left;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+#kiri h2{
+    margin: 0px;
+    padding: 8px 12px;
+    color: white;
+    font-size: 20px;
+    background: #740001;
+}
+#kiri ul{
+    margin: 10px 0 20px 20px;
+    padding: 0;
+    list-style: none;
+    width: 200px;
+}
+#kiri a{
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted #e8a800;
+}
+#kiri a:hover{
+    background: #d3a625;
+    color: white;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+}
+#konten{
+    background-color: #fceecb;
+    width: 690px;
+    margin: 10px 0 20px;
+    padding: 20px;
+    float: right;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+.posttitle{
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Arial, sans-serif;
+    color: #740001;
+}
+.post{
+    margin: 10px 0 20px;
+    text-align: justify;
+}
+.post a{
+    color: blue;
+    text-decoration: none;
+}
+.post img{
+    width: 30%;
+    margin-right: 2%;
+}
+#footer{
+    background-color: #740001;
+    padding: 15px 0;
+    width: 1000px;
+    clear: both;
+    margin: 20px 0;
+    text-align: center;
+    color: white;
+    border-top: 2px solid #d3a625;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}

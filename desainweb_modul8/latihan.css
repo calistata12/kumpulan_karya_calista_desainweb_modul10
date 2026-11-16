@@ -1,0 +1,22 @@
+body {
+    background-color: #021A54;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-header,
+.footer-custom {
+    background-color: #F13E93;
+}
+.card-custom {
+    background-color: #FFCEE3;
+    border: none;
+    border-radius: 4px;
+}
+.card-title {
+    background-color: #FF90BB;
+    padding: 8px 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333333;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .calculator {
+            width: 300px;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .calculator input, .calculator button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        .buttons {
+            display: flex;
+            gap: 5px;
+        }
+        .buttons button {
+            flex: 1;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #hasil {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="calculator">
+        <h2>Kalkulator Sederhana</h2>
+        
+        <input type="number" id="angka1" placeholder="Masukkan angka pertama">
+        <input type="number" id="angka2" placeholder="Masukkan angka kedua">
+
+        <div class="buttons">
+            <button onclick="hitung('+')">+</button>
+            <button onclick="hitung('-')">-</button>
+            <button onclick="hitung('*')">*</button>
+            <button onclick="hitung('/')">/</button>
+        </div>
+
+        <div id="hasil">Hasil: -</div>
+    </div>
+
+    <script>
+        function hitung(operator) {
+            var val1 = parseFloat(document.getElementById('angka1').value);
+            var val2 = parseFloat(document.getElementById('angka2').value);
+            var hasilElement = document.getElementById('hasil');
+
+            if (isNaN(val1) || isNaN(val2)) {
+                hasilElement.innerHTML = "Hasil: Harap masukkan kedua angka!";
+                return;
+            }
+
+            var hasil = 0;
+            if (operator === '+') {
+                hasil = val1 + val2;
+            } else if (operator === '-') {
+                hasil = val1 - val2;
+            } else if (operator === '*') {
+                hasil = val1 * val2;
+            } else if (operator === '/') {
+                if (val2 === 0) {
+                    hasilElement.innerHTML = "Hasil: Tidak dapat dibagi dengan 0!";
+                    return;
+                }
+                hasil = val1 / val2;
+            }
+
+            hasilElement.innerHTML = "Hasil: " + hasil;
+        }
+    </script>
+
+</body>
+</html>
