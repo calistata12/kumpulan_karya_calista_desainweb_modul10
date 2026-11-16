@@ -1,6 +1,6 @@
 ### 🎨 Kumpulan Karya Desain Web
 
-Repository berisi kumpulan karya mata kuliah Desain Web dan dibuat untuk praktikum Modul 10.
+Repositori berisi kumpulan karya mata kuliah Desain Web dan dibuat untuk praktikum Modul 10.
 
 ### 👩🏻 Identitas
 
