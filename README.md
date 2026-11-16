@@ -2,7 +2,7 @@
 
 Repository berisi kumpulan karya mata kuliah Desain Web dan dibuat untuk praktikum Modul 10.
 
-### 🧑‍💻 Identitas
+### 👩🏻 Identitas
 
 | | |
 | :--- | :--- |
@@ -23,13 +23,13 @@ Repository berisi kumpulan karya mata kuliah Desain Web dan dibuat untuk praktik
 
 
 
-### 📚 Ringkasan Materi
+### 📔 Ringkasan Materi
 
 Git merupakan sistem kontrol versi terdistribusi (*Distributed Version Control System*) yang digunakan untuk mencatat, melacak, dan mengelola setiap perubahan pada kode sumber (*source code*) selama proses pengembangan perangkat lunak. Dengan menggunakan Git, pengembang dapat menyimpan riwayat perubahan melalui mekanisme *commit*, bekerja secara paralel pada cabang (*branch*) yang berbeda tanpa mengganggu kode utama, serta menggabungkan hasil pekerjaan dari berbagai anggota tim secara terstruktur. Untuk mendukung kolaborasi secara daring, Git sering dipadukan dengan layanan *hosting* repositori berbasis cloud seperti GitHub, sehingga proyek dapat disimpan secara aman, diakses dari mana saja, dan didokumentasikan dengan rapi.
 
 
 
-### 🚀 Langkah Kerja
+### 💻 Langkah Kerja
 
 ### 1. Membuat Repository di GitHub
 
@@ -80,6 +80,6 @@ git push -u origin main
 
 
 
-### 📝 Kesimpulan
+### 📋 Kesimpulan
 
 Melalui praktikum ini, pengelolaan versi proyek menggunakan Git dan GitHub dapat diterapkan secara langsung melalui antarmuka baris perintah (*Command Line Interface*). Seluruh tahapan mulai dari inisialisasi repositori lokal, penambahan berkas ke *staging area*, pencatatan riwayat perubahan melalui *commit*, hingga pengunggahan (*push*) ke repositori *remote* berjalan dengan baik. Penerapan alur kerja Git ini mempermudah pengarsipan kumpulan karya praktikum Desain Web secara terstruktur serta menjadi fondasi penting dalam kolaborasi pengembangan perangkat lunak.
